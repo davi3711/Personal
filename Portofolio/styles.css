@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-family: Poppins;
     box-sizing: border-box;
 }
 html{
@@ -10,6 +10,7 @@ html{
 body{
     background: #080808;
     color: #fff;
+    font-family: Poppins;
 }
 #header{
     width: 100%;
@@ -17,6 +18,7 @@ body{
     background-image: url(img/7ca8d8cd-841b-4c10-b216-46567348fe42.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment:fixed;
 }
 .container{
     padding: 10px 10%;
@@ -81,6 +83,7 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+    height: 400px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -165,7 +168,7 @@ nav ul li a:hover::after{
 }
 .hobies-list div:hover{
     background:#ff004f ;
-    transform: translateY(-10px);
+    transform: translateY(40px);
 }
 /*-----portofolio-----*/
 #portofolio{
@@ -277,6 +280,81 @@ nav ul li a:hover::after{
 .slider-nav a:hover{
     opacity: 1;
 }
+
+.myproject{
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+.project h2{
+position: relative;
+left: 80px;
+font-size: 50px;
+}
+.project1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+.project1 img{
+    width: 450px;
+    height: 250px;
+}
+.project1 p{
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.tmpln{
+    font-size: 50px;
+    margin-top: 100px;
+}
+.album{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.album img{
+    width: 350px;
+    height: 200px;
+}
+
+.cd{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.code img{
+    width: 350px;
+    height: 200px;
+}
+
+.link{
+    margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.link a{
+    color: white;
+}
+
 .btn{
     display: block;
     margin: 50px auto;
@@ -520,11 +598,11 @@ object-fit: cover;
     }
     .slider{
         height: 250px;
-        width: 410px;
+        width: 300px;
     }
     .slider img{
         height: 250px;
-        width: 410px;
+        width: 300px;
     }
 
     .contact h4{
